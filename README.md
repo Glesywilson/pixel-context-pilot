@@ -1,26 +1,25 @@
-Meu Projeto React
+```markdown
+# Meu Projeto React
 
 Um projeto moderno desenvolvido com React, TypeScript e Vite.
 
-🚀 Tecnologias Utilizadas
-React - Biblioteca para interface de usuário
+## 🚀 Tecnologias Utilizadas
 
-TypeScript - JavaScript com tipagem estática
+- **React** - Biblioteca para interface de usuário
+- **TypeScript** - JavaScript com tipagem estática
+- **Vite** - Build tool e dev server rápido
+- **Tailwind CSS** - Framework CSS utilitário
+- **shadcn/ui** - Componentes UI de alta qualidade
 
-Vite - Build tool e dev server rápido
+## 📦 Como Começar
 
-Tailwind CSS - Framework CSS utilitário
+### Pré-requisitos
+- Node.js (versão 18 ou superior)
+- npm ou yarn
 
-shadcn/ui - Componentes UI de alta qualidade
+### Instalação e Desenvolvimento
 
-📦 Como Começar
-Pré-requisitos
-Node.js (versão 18 ou superior)
-
-npm ou yarn
-
-Instalação e Desenvolvimento
-bash
+```bash
 # Clone o repositório
 git clone <URL_DO_REPOSITORIO>
 
@@ -32,10 +31,13 @@ npm install
 
 # Inicie o servidor de desenvolvimento
 npm run dev
-O projeto estará disponível em http://localhost:5173
+```
 
-🛠 Comandos Disponíveis
-bash
+O projeto estará disponível em `http://localhost:5173`
+
+## 🛠 Comandos Disponíveis
+
+```bash
 # Desenvolvimento
 npm run dev          # Inicia servidor de desenvolvimento
 npm run build        # Gera build de produção
@@ -44,42 +46,49 @@ npm run preview      # Preview do build de produção
 # Qualidade de código
 npm run lint         # Executa ESLint
 npm run type-check   # Verificação de tipos TypeScript
-📁 Estrutura do Projeto
-text
+```
+
+## 📁 Estrutura do Projeto
+
+```
 src/
 ├── components/      # Componentes React reutilizáveis
 ├── pages/          # Componentes de página
 ├── styles/         # Estilos globais e configurações
 ├── utils/          # Funções utilitárias
 └── types/          # Definições TypeScript
-🌐 Deploy
+```
+
+## 🌐 Deploy
+
 O projeto pode ser implantado em qualquer plataforma que suporte aplicações React/Node.js como:
 
-Vercel
+- Vercel
+- Netlify
+- GitHub Pages
+- AWS Amplify
 
-Netlify
+### Build para Produção
 
-GitHub Pages
-
-AWS Amplify
-
-Build para Produção
-bash
+```bash
 npm run build
-Os arquivos otimizados serão gerados na pasta dist/.
+```
 
-🤝 Contribuindo
-Faça um fork do projeto
+Os arquivos otimizados serão gerados na pasta `dist/`.
 
-Crie uma branch para sua feature (git checkout -b feature/AmazingFeature)
+## 🤝 Contribuindo
 
-Commit suas mudanças (git commit -m 'Add some AmazingFeature')
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
 
-Push para a branch (git push origin feature/AmazingFeature)
+## 📄 Licença
 
-Abra um Pull Request
+Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
 
-📄 Licença
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+---
 
 Desenvolvido com ❤️ usando React e TypeScript
+```
