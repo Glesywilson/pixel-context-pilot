@@ -1,5 +1,5 @@
 ```markdown
-# Meu Projeto React
+# PixelContext
 
 Um projeto moderno desenvolvido com React, TypeScript e Vite.
 
