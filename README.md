@@ -1,73 +1,84 @@
-# Welcome to your Lovable project
+Meu Projeto React
+Um projeto moderno desenvolvido com React, TypeScript e Vite.
 
-## Project info
+🚀 Tecnologias Utilizadas
+React - Biblioteca para interface de usuário
 
-**URL**: https://lovable.dev/projects/b69f3cc6-d628-41c0-ba05-7d11c025e1f4
+TypeScript - JavaScript com tipagem estática
 
-## How can I edit this code?
+Vite - Build tool e dev server rápido
 
-There are several ways of editing your application.
+Tailwind CSS - Framework CSS utilitário
 
-**Use Lovable**
+shadcn/ui - Componentes UI de alta qualidade
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b69f3cc6-d628-41c0-ba05-7d11c025e1f4) and start prompting.
+📦 Como Começar
+Pré-requisitos
+Node.js (versão 18 ou superior)
 
-Changes made via Lovable will be committed automatically to this repo.
+npm ou yarn
 
-**Use your preferred IDE**
+Instalação e Desenvolvimento
+bash
+# Clone o repositório
+git clone <URL_DO_REPOSITORIO>
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+# Entre no diretório
+cd <NOME_DO_PROJETO>
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+# Instale as dependências
+npm install
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Inicie o servidor de desenvolvimento
 npm run dev
-```
+O projeto estará disponível em http://localhost:5173
 
-**Edit a file directly in GitHub**
+🛠 Comandos Disponíveis
+bash
+# Desenvolvimento
+npm run dev          # Inicia servidor de desenvolvimento
+npm run build        # Gera build de produção
+npm run preview      # Preview do build de produção
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+# Qualidade de código
+npm run lint         # Executa ESLint
+npm run type-check   # Verificação de tipos TypeScript
+📁 Estrutura do Projeto
+text
+src/
+├── components/      # Componentes React reutilizáveis
+├── pages/          # Componentes de página
+├── styles/         # Estilos globais e configurações
+├── utils/          # Funções utilitárias
+└── types/          # Definições TypeScript
+🌐 Deploy
+O projeto pode ser implantado em qualquer plataforma que suporte aplicações React/Node.js como:
 
-**Use GitHub Codespaces**
+Vercel
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Netlify
 
-## What technologies are used for this project?
+GitHub Pages
 
-This project is built with:
+AWS Amplify
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Build para Produção
+bash
+npm run build
+Os arquivos otimizados serão gerados na pasta dist/.
 
-## How can I deploy this project?
+🤝 Contribuindo
+Faça um fork do projeto
 
-Simply open [Lovable](https://lovable.dev/projects/b69f3cc6-d628-41c0-ba05-7d11c025e1f4) and click on Share -> Publish.
+Crie uma branch para sua feature (git checkout -b feature/AmazingFeature)
 
-## Can I connect a custom domain to my Lovable project?
+Commit suas mudanças (git commit -m 'Add some AmazingFeature')
 
-Yes, you can!
+Push para a branch (git push origin feature/AmazingFeature)
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Abra um Pull Request
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+📄 Licença
+Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
+Desenvolvido com ❤️ usando React e TypeScript
