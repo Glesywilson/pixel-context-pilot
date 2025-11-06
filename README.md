@@ -1,4 +1,5 @@
 Meu Projeto React
+
 Um projeto moderno desenvolvido com React, TypeScript e Vite.
 
 🚀 Tecnologias Utilizadas
