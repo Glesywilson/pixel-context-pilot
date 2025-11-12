@@ -1,7 +1,7 @@
 ```markdown
 # PixelContext
 
-Um projeto moderno desenvolvido com React, TypeScript e Vite.
+Um projeto moderno desenvolvido com React, TypeScript e Vite - Através do Lovable
 
 ## 🚀 Tecnologias Utilizadas
 
